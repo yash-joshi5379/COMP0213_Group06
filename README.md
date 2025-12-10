@@ -30,7 +30,7 @@ https://www.youtube.com/watch?v=ChXXNRX1s6s
 Clone this repository or download it to your local computer.
 
 ```bash
-git clone https://github.com/yash-joshi5379/GraspPlanner
+git clone https://github.com/yash-joshi5379/COMP0213_Group06
 ```
 
 ### 2. Create a virtual environment (venv) with Python 3.13.2
