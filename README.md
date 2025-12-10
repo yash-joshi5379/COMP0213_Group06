@@ -33,8 +33,26 @@ Clone this repository or download it to your local computer.
 git clone https://github.com/yash-joshi5379/GraspPlanner
 ```
 
-### 2. Install all Required Libraries
-Run the following instruction in the command line:
+### 2. Create a virtual environment (venv) with Python 3.13.2
+
+```bash
+python -m venv oop_grasp_planner
+```
+
+### 3. Use the virtual environment for the selected interpreter
+
+```bash
+oop_grasp_planner\Scripts\activate
+```
+
+### 4. You should see the venv in ther terminal
+
+```bash
+(oop_grasp_planner) C:\Users\...\GraspPlanner-main>
+```
+
+### 5. Install all Required Libraries
+Once in the venv, run the following instruction in the command line:
 
 ```bash
 pip install -r requirements.txt
