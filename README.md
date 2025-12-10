@@ -6,10 +6,18 @@ This repository contains all the Python code and supporting files used for our g
 ---
 
 ## 🧭 Project Structure
-
-| Folder                     | Purpose                              |
-|----------------------------|--------------------------------------|
-| Classification
+| Folder                 | Purpose                                                                                                            |
+| ---------------------- | ------------------------------------------------------------------------------------------------------------------ |
+| **classification**     | Contains all model-training and classification logic, including classifiers, model selection, and evaluation code. |
+| **confusion_matrices** | Stores generated confusion matrix images for evaluating model performance.                                         |
+| **datasets**           | Holds generated or collected grasp-trial datasets used for training and testing models.                            |
+| **figures**            | Contains plots, charts, or other figures produced during analysis or evaluation.                                   |
+| **grippers**           | Includes gripper configuration files or classes representing different robotic gripper types.                      |
+| **interface**          | Houses the PyQt6 GUI code, including windows, dialogs, and threading utilities for the app.                        |
+| **models**             | Stores saved machine-learning models (e.g., `.pkl` files, neural network weights) generated during classification. |
+| **objects**            | Contains object definition files, meshes, or metadata used in simulation grasp trials.                             |
+| **simulation**         | Implements the simulation environment, physics setup, and grasp trial execution logic.                             |
+| **urdf_files**         | URDF robot/gripper description files used by the simulator for accurate physical modelling.                        |
 
 ---
 
